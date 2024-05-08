@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.messages {
+  width: 100%;
+  height: 500px;
+}
+
+.messageContainer {
+  display: flex;
+  margin: 45px;
+  flex-direction: column;
+  align-items: center;
+
+  height: 50px;
+}
+
+.messageboxStart {
+  margin: 0;
+  padding: 10px;
+  min-width: 50px;
+  border-radius: 5px;
+  background-color: rgb(206, 120, 120);
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.messagebox {
+  margin: 0;
+  padding: 10px;
+  min-width: 50px;
+  border-radius: 5px;
+  background-color: lightblue;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.justifyStart {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.justifyEnd {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageName {
+  align-self: center;
+  color: rgba(0, 0, 0, 0.219);
+  margin-bottom: 2px;
+  font-size: 0.7rem;
+  font: italic;
+}

@@ -1,0 +1,36 @@
+.heading {
+  color: black;
+  margin-top: 5%;
+}
+
+.joinForm {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinInput {
+  padding: 10px;
+  width: 300px;
+  max-height: 50px;
+  background-color: rgb(171, 220, 231);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.joinInnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-top: 15px;
+  width: 100px;
+  height: 50px;
+}
